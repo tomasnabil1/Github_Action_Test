@@ -12,3 +12,10 @@ jobs:
    steps:
      - name : Print a welcome message
        run: echo "Welcome to Our Github Action Test! "
+
+     - name: Chekout repository 
+       uses: actions/checkout@v6.0.2
+
+     - name: list repoitory files
+       run: ls -la 
+   
