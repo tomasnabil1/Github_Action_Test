@@ -6,7 +6,7 @@ jobs:
         steps:
          - name: print a message
            run: echo "This job is Running"
-           if: ${{ github.event_name == 'push'}}
+       
 
 
 
